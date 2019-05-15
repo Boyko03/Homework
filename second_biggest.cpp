@@ -20,7 +20,7 @@ int second_max_num(int* a, int size) {
 }
 
 int main() {
-	int arr[10] = {100, 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+	int arr[10] = {100, 100, 20, 30, 40, 50, 60, 70, 80, 90 };
 
 	int size_arr = sizeof(arr) / sizeof(arr[0]);
 	printf("\nSecond biggest number is %d\n", second_max_num(arr, size_arr));
